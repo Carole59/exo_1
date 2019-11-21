@@ -1,0 +1,42 @@
+{% extends 'commun/base.html.twig' %}
+{% block content %}
+
+    <h1>
+        Alliance Devis Travaux !
+    </h1>
+    <section>
+        <div>
+            <div class="raw align-items-">
+
+                <p>{{ content }}</p><br>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrqdV_wI_QoRSqrgTOL7taFNyVoHoI5BvHwL91-yz5DBqMbf1c&s" height="200px" width="200px"></img>
+                <p>{{ content }}</p><br>
+
+            </div>
+        </div>
+
+
+
+    <aside>
+        {% if sidebar %}
+
+
+        {% endif %}
+
+        {% for tag in tags %}
+            <ul>
+                <li>
+                    <a href ="{{ path('twig_article') }}">
+                        {{ tag|raw }}
+                    </a>
+                </li>
+            </ul>
+        {% endfor %}
+    </aside>
+    </section>
+
+
+
+
+
+{% endblock %}
