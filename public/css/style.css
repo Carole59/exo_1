@@ -1,16 +1,24 @@
+header{
+    <img src="https://encrypted-tbn0.gstatic.com /images?q=tbn:ANd9GcQrqdV_wI_QoRSqrgTOL7taFNyVoHoI5BvHwL91-yz5DBqMbf1c&s">
+
+    background-repeat: no-repeat;
+    background-color: #2F611C;
+    background-size: cover;
+    <img src="asset/img/logo.png" alt="logo" img="fluid">
+}
+
 body{
     background-color: lightblue;
 }
-header{
 
-    height: 20vh;
-    background-color: #9d88a8;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
+img{
+
 }
-
+h1{
+    text-color:white;
+}
 h2{
+    text-color:white;
     text-align: center;
 }
 body{

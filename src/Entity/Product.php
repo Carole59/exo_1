@@ -14,12 +14,12 @@ class Product
     /**
      * @ORM\Id
      * @ORM\GeneratedValue
-     * @ORM\Column(type="string, length=255")
+     * @ORM\Column(type="integer")
      */
     private $id;
 
     /**
-     * @ORM\Column((type="string", length=500, nullable=true)
+     * @ORM\Column(type="string", length=500, nullable=true)
      */
     private $titre;
 
@@ -36,7 +36,7 @@ class Product
 
     /**
      * @ORM\Column(type="boolean")
-)    */
+    */
     private $stock;
 }
 

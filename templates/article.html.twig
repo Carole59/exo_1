@@ -7,7 +7,7 @@
     <section>
         <div>
             <div class="raw align-items-">
-
+<div class="top-container"></div>
                 <p>{{ content }}</p><br>
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrqdV_wI_QoRSqrgTOL7taFNyVoHoI5BvHwL91-yz5DBqMbf1c&s" height="200px" width="200px"></img>
                 <p>{{ content }}</p><br>
@@ -18,6 +18,13 @@
 
 
     <aside>
+        <div class="row">
+            <nav class="col-lg-2">
+                Menu
+            </nav>
+            <section class="col-lg-10">
+            </section>
+        </div>
         {% if sidebar %}
 
 
@@ -32,6 +39,7 @@
                 </li>
             </ul>
         {% endfor %}
+
     </aside>
     </section>
 
